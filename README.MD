@@ -1,8 +1,12 @@
 # Adotai Pets Backend
 
-## Description
-
 Adotai Pets Backend is the server-side application for managing pet adoption processes. It provides APIs to handle user accounts and pet data ensuring a seamless experience for both adopters and administrators.
+
+
+## Front-End
+This repository contains the front-end code for the Adotai Pets platform. This application provides a user interface for connecting people with pets.
+
+Repository: [Adotai Pets Front-End](https://github.com/JoseMatheusR/Adotai-FrontEnd)
 
 ## Features
 
@@ -102,7 +106,7 @@ src
 ## Usage
 
 - Use tools like Postman or cURL to interact with the APIs.
-- Integrate the backend with the frontend application.
+- Integrate the backend with the [frontend application.](https://github.com/JoseMatheusR/Adotai-FrontEnd)
 
 ## License
 
