@@ -1,15 +1,20 @@
 # Adotai Pets Backend
 
 ## Description
+
 Adotai Pets Backend is the server-side application for managing pet adoption processes. It provides APIs to handle user accounts and pet data ensuring a seamless experience for both adopters and administrators.
 
 ## Features
+
 - User authentication and authorization.
-- CRUD operations for pets and adoption requests.
-- Integration with external services (if applicable).
+- CRUD operations for pet management. (DELETE and EDIT are in WIP)
 - Adoption module (WIP)
 
 ## Installation
+
+### Prerequisites
+
+- Ensure you have Maven installed. You can download it from [Maven's official website](https://maven.apache.org/download.cgi).
 
 1. Clone the repository:
    ```bash
@@ -20,21 +25,20 @@ Adotai Pets Backend is the server-side application for managing pet adoption pro
    cd adotai-pets-backend
    ```
 3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Set up environment variables:
-   - Create a `.env` file in the root directory.
-   - Add the required environment variables (e.g., database connection, API keys).
 
-5. Start the database using Docker:
+   ```bash
+   mvn clean install
+   ```
+
+4. Start the database using Docker:
+
    ```bash
    docker-compose up -d
    ```
 
-6. Start the development server:
+5. Start the development server:
    ```bash
-   npm run dev
+   mvn spring-boot:run
    ```
 
 ## Project Structure
@@ -88,6 +92,7 @@ src
 ```
 
 ### Major Sections:
+
 - **Core**: Contains the domain models, DTOs, exceptions, gateways, services, and use cases that define the business logic.
 - **Data**: Handles database-related operations, including entities, repositories, and mappers.
 - **Infra**: Manages application infrastructure, including configurations, controllers, security, and service implementations.
@@ -98,7 +103,6 @@ src
 
 - Use tools like Postman or cURL to interact with the APIs.
 - Integrate the backend with the frontend application.
-
 
 ## License
 
