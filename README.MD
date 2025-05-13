@@ -37,6 +37,10 @@ Adotai Pets Backend is the server-side application for managing pet adoption pro
    npm run dev
    ```
 
+## Front-End Application
+
+The front-end application for this project can be found at [Adotai FrontEnd](https://github.com/JoseMatheusR/Adotai-FrontEnd).
+
 ## Project Structure
 
 The project follows a clean architecture approach, dividing responsibilities into distinct layers. Below is an overview of the directory structure:
